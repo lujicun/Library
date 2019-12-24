@@ -6,7 +6,7 @@
  * @date    2019/12/24 14:37
  *
  */
-namespace WeberGiles\Favorites;
+namespace Giles\Library;
 
 /**
  *
