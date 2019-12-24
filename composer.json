@@ -1,0 +1,26 @@
+{
+    "name": "giles/library",
+    "description": "收集整理常用的php工具类库 Some of the PHP class libraries in the collection",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "php": "^7.",
+        "phpunit/phpunit": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Giles.wang",
+            "email": "giles.wang@aliyun.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Giles\\Library\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
